@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dimitar Petrov</title>
+    <link>http://dimitarpetrov.com/</link>
+    <description>Recent content on Dimitar Petrov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2020 19:46:00 +0300</lastBuildDate>
+    
+	<atom:link href="http://dimitarpetrov.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://dimitarpetrov.com/pages/about-page/</link>
+      <pubDate>Tue, 21 Jul 2020 19:12:00 +0300</pubDate>
+      
+      <guid>http://dimitarpetrov.com/pages/about-page/</guid>
+      <description>This is about page</description>
+    </item>
+    
+    <item>
+      <title>Setting up the all servers needed for PXE</title>
+      <link>http://dimitarpetrov.com/blog/2020/07/21/setting-up-the-all-servers-needed-for-pxe/</link>
+      <pubDate>Tue, 21 Jul 2020 19:46:00 +0300</pubDate>
+      
+      <guid>http://dimitarpetrov.com/blog/2020/07/21/setting-up-the-all-servers-needed-for-pxe/</guid>
+      <description>We are going to use dnsmasq package to supply DHCP and TFTP functionality to your PXE server.
+ Install and configure dnsmasq  sudo pacman --quiet --noconfirm -S dnsmasq sudo cp -rp /etc/dnsmasq.conf /etc/dnsmasq.conf_$(date &amp;#34;+%Y%m%d&amp;#34;) sudo sh -c &amp;#34;cat &amp;gt; /etc/dnsmasq.conf &amp;lt;&amp;lt;EOF port=0 interface=eth0 bind-interfaces dhcp-range=192.168.10.50,192.168.10.60,12h dhcp-boot=/arch/boot/syslinux/lpxelinux.0 dhcp-option-force=209,boot/syslinux/archiso.cfg dhcp-option-force=210,/arch/ dhcp-option-force=66,192.168.10.102 enable-tftp tftp-root=/srv/pxe EOF&amp;#34; resolving dependencies... looking for conflicting packages... Packages (3) libnetfilter_conntrack-1.0.6-1 libnfnetlink-1.0.1-2 dnsmasq-2.76-4 Total Installed Size: 0.91 MiB :: Proceed with installation?</description>
+    </item>
+    
+    <item>
+      <title>Part 0: Preparing the PXE Server on Arch Linux</title>
+      <link>http://dimitarpetrov.com/blog/2020/07/21/part-0-preparing-the-pxe-server-on-arch-linux/</link>
+      <pubDate>Tue, 21 Jul 2020 19:45:00 +0300</pubDate>
+      
+      <guid>http://dimitarpetrov.com/blog/2020/07/21/part-0-preparing-the-pxe-server-on-arch-linux/</guid>
+      <description>TODO Explain the benefits of setting an PXE server in home LAN TODO Develop a graph of my home infrastructure with ditaa TODO Explain that this works only for BIOS booting
+In this series I am going to demonstrate how to set up a Linux environment for power users on Arch Linux and utilize literate DevOps, using Spacemacs and Org-Babel.
+Note: This step is an optional one, you can always just boot from USB stick and continue from Part 1 of the Arch Install Series</description>
+    </item>
+    
+    <item>
+      <title>Part 1: Test latex</title>
+      <link>http://dimitarpetrov.com/blog/2020/07/21/part-1-test-latex/</link>
+      <pubDate>Tue, 21 Jul 2020 19:12:00 +0300</pubDate>
+      
+      <guid>http://dimitarpetrov.com/blog/2020/07/21/part-1-test-latex/</guid>
+      <description>LaTeX formatted equation: \( E = -J \sum_{i=1}^N s_i s_{i+1} \)
+∀ x ∈ X, \quad ∃ y ≤ ε
+import random import pandas as pd import pandas print(pandas.__version__) 0.23.4 </description>
+    </item>
+    
+  </channel>
+</rss>

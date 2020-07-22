@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://dimitarpetrov.com/pages/about-page/</loc>
+    <lastmod>2020-07-21T19:12:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarpetrov.com/tags/arch/</loc>
+    <lastmod>2020-07-21T20:02:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarpetrov.com/blog/</loc>
+    <lastmod>2020-07-22T20:15:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarpetrov.com/</loc>
+    <lastmod>2020-07-22T20:15:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarpetrov.com/tags/linux/</loc>
+    <lastmod>2020-07-21T20:02:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarpetrov.com/tags/pxe/</loc>
+    <lastmod>2020-07-21T20:02:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarpetrov.com/blog/2020/07/21/setting-up-the-all-servers-needed-for-pxe/</loc>
+    <lastmod>2020-07-21T20:02:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarpetrov.com/tags/</loc>
+    <lastmod>2020-07-21T20:02:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarpetrov.com/blog/2020/07/21/part-0-preparing-the-pxe-server-on-arch-linux/</loc>
+    <lastmod>2020-07-21T19:56:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarpetrov.com/pages/</loc>
+    <lastmod>2020-07-21T19:12:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarpetrov.com/blog/2020/07/21/part-1-test-latex/</loc>
+    <lastmod>2020-07-22T20:15:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarpetrov.com/categories/</loc>
+  </url>
+  
+</urlset>
