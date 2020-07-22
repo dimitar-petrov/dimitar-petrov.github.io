@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>arch on Dimitar Petrov</title>
-    <link>http://dimitarpetrov.com/tags/arch/</link>
+    <link>https://www.dimitarpetrov.com/tags/arch/</link>
     <description>Recent content in arch on Dimitar Petrov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Jul 2020 19:46:00 +0300</lastBuildDate>
     
-	<atom:link href="http://dimitarpetrov.com/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.dimitarpetrov.com/tags/arch/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Setting up the all servers needed for PXE</title>
-      <link>http://dimitarpetrov.com/blog/2020/07/21/setting-up-the-all-servers-needed-for-pxe/</link>
+      <link>https://www.dimitarpetrov.com/blog/2020/07/21/setting-up-the-all-servers-needed-for-pxe/</link>
       <pubDate>Tue, 21 Jul 2020 19:46:00 +0300</pubDate>
       
-      <guid>http://dimitarpetrov.com/blog/2020/07/21/setting-up-the-all-servers-needed-for-pxe/</guid>
+      <guid>https://www.dimitarpetrov.com/blog/2020/07/21/setting-up-the-all-servers-needed-for-pxe/</guid>
       <description>We are going to use dnsmasq package to supply DHCP and TFTP functionality to your PXE server.
  Install and configure dnsmasq  sudo pacman --quiet --noconfirm -S dnsmasq sudo cp -rp /etc/dnsmasq.conf /etc/dnsmasq.conf_$(date &amp;#34;+%Y%m%d&amp;#34;) sudo sh -c &amp;#34;cat &amp;gt; /etc/dnsmasq.conf &amp;lt;&amp;lt;EOF port=0 interface=eth0 bind-interfaces dhcp-range=192.168.10.50,192.168.10.60,12h dhcp-boot=/arch/boot/syslinux/lpxelinux.0 dhcp-option-force=209,boot/syslinux/archiso.cfg dhcp-option-force=210,/arch/ dhcp-option-force=66,192.168.10.102 enable-tftp tftp-root=/srv/pxe EOF&amp;#34; resolving dependencies... looking for conflicting packages... Packages (3) libnetfilter_conntrack-1.0.6-1 libnfnetlink-1.0.1-2 dnsmasq-2.76-4 Total Installed Size: 0.91 MiB :: Proceed with installation?</description>
     </item>

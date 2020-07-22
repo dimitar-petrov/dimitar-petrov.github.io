@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Dimitar Petrov</title>
-    <link>http://dimitarpetrov.com/tags/</link>
+    <link>https://www.dimitarpetrov.com/tags/</link>
     <description>Recent content in Tags on Dimitar Petrov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Jul 2020 19:46:00 +0300</lastBuildDate>
     
-	<atom:link href="http://dimitarpetrov.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.dimitarpetrov.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>arch</title>
-      <link>http://dimitarpetrov.com/tags/arch/</link>
+      <link>https://www.dimitarpetrov.com/tags/arch/</link>
       <pubDate>Tue, 21 Jul 2020 19:46:00 +0300</pubDate>
       
-      <guid>http://dimitarpetrov.com/tags/arch/</guid>
+      <guid>https://www.dimitarpetrov.com/tags/arch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>http://dimitarpetrov.com/tags/linux/</link>
+      <link>https://www.dimitarpetrov.com/tags/linux/</link>
       <pubDate>Tue, 21 Jul 2020 19:46:00 +0300</pubDate>
       
-      <guid>http://dimitarpetrov.com/tags/linux/</guid>
+      <guid>https://www.dimitarpetrov.com/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pxe</title>
-      <link>http://dimitarpetrov.com/tags/pxe/</link>
+      <link>https://www.dimitarpetrov.com/tags/pxe/</link>
       <pubDate>Tue, 21 Jul 2020 19:46:00 +0300</pubDate>
       
-      <guid>http://dimitarpetrov.com/tags/pxe/</guid>
+      <guid>https://www.dimitarpetrov.com/tags/pxe/</guid>
       <description></description>
     </item>
     

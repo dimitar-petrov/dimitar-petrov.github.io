@@ -11,7 +11,7 @@
 <meta property="og:description" content="We are going to use dnsmasq package to supply DHCP and TFTP functionality to your PXE server.
  Install and configure dnsmasq  sudo pacman --quiet --noconfirm -S dnsmasq sudo cp -rp /etc/dnsmasq.conf /etc/dnsmasq.conf_$(date &#34;&#43;%Y%m%d&#34;) sudo sh -c &#34;cat &gt; /etc/dnsmasq.conf &lt;&lt;EOF port=0 interface=eth0 bind-interfaces dhcp-range=192.168.10.50,192.168.10.60,12h dhcp-boot=/arch/boot/syslinux/lpxelinux.0 dhcp-option-force=209,boot/syslinux/archiso.cfg dhcp-option-force=210,/arch/ dhcp-option-force=66,192.168.10.102 enable-tftp tftp-root=/srv/pxe EOF&#34; resolving dependencies... looking for conflicting packages... Packages (3) libnetfilter_conntrack-1.0.6-1 libnfnetlink-1.0.1-2 dnsmasq-2.76-4 Total Installed Size: 0.91 MiB :: Proceed with installation?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://dimitarpetrov.com/blog/2020/07/21/setting-up-the-all-servers-needed-for-pxe/" />
+<meta property="og:url" content="https://www.dimitarpetrov.com/blog/2020/07/21/setting-up-the-all-servers-needed-for-pxe/" />
 <meta property="article:published_time" content="2020-07-21T19:46:00+03:00" />
 <meta property="article:modified_time" content="2020-07-22T21:12:00+03:00" />
 
