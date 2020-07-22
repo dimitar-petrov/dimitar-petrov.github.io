@@ -41,16 +41,5 @@ In this series I am going to demonstrate how to set up a Linux environment for p
 Note: This step is an optional one, you can always just boot from USB stick and continue from Part 1 of the Arch Install Series</description>
     </item>
     
-    <item>
-      <title>Part 1: Test latex</title>
-      <link>http://dimitarpetrov.com/blog/2020/07/21/part-1-test-latex/</link>
-      <pubDate>Tue, 21 Jul 2020 19:12:00 +0300</pubDate>
-      
-      <guid>http://dimitarpetrov.com/blog/2020/07/21/part-1-test-latex/</guid>
-      <description>LaTeX formatted equation: \( E = -J \sum_{i=1}^N s_i s_{i+1} \)
-∀ x ∈ X, \quad ∃ y ≤ ε
-import random import pandas as pd import pandas print(pandas.__version__) 0.23.4 </description>
-    </item>
-    
   </channel>
 </rss>
