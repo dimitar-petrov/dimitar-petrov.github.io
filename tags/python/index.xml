@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Feedback Loop</title>
+    <link>https://www.dimitarpetrov.com/tags/python/</link>
+    <description>Recent content in python on Feedback Loop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Aug 2022 21:07:00 +0300</lastBuildDate><atom:link href="https://www.dimitarpetrov.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Data Science Answers Different Questions</title>
+      <link>https://www.dimitarpetrov.com/blog/2022/08/19/how-data-science-answers-different-questions/</link>
+      <pubDate>Fri, 19 Aug 2022 21:07:00 +0300</pubDate>
+      
+      <guid>https://www.dimitarpetrov.com/blog/2022/08/19/how-data-science-answers-different-questions/</guid>
+      <description>The blog post starts here.
+import pandas as pd import numpy as np data = pd.DataFrame( data=np.random.normal(loc=0.0, scale=1.0, size=1000), columns=[&amp;#34;gaussian_var&amp;#34;]) data[:10] gaussian_var 0 0.366702 1 0.0247435 2 1.72854 3 0.343894 4 -0.914733 5 -0.186893 6 -0.53095 7 -0.660085 8 -0.740802 9 1.55077 import altair as alt alt.renderers.enable( &amp;#39;altair_saver&amp;#39;, fmts=[&amp;#39;svg&amp;#39;], embed_options={&amp;#39;scaleFactor&amp;#39;: &amp;#39;1.5&amp;#39;, &amp;#39;theme&amp;#39;: &amp;#39;light&amp;#39;}, # method=&amp;#34;selenium&amp;#34;, # webdriver=&amp;#34;chrome&amp;#34;, ) alt.Chart(data).mark_bar().encode( x=alt.X(&amp;#34;gaussian_var&amp;#34;, bin=alt.BinParams(maxbins=100)), y=&amp;#34;count()&amp;#34;).properties(width=800) </description>
+    </item>
+    
+  </channel>
+</rss>

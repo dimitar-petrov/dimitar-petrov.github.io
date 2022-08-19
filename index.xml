@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dimitar Petrov</title>
+    <title>Feedback Loop</title>
     <link>https://www.dimitarpetrov.com/</link>
-    <description>Recent content on Dimitar Petrov</description>
+    <description>Recent content on Feedback Loop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2020 19:46:00 +0300</lastBuildDate>
-    
-	<atom:link href="https://www.dimitarpetrov.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 19 Aug 2022 21:07:00 +0300</lastBuildDate><atom:link href="https://www.dimitarpetrov.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://www.dimitarpetrov.com/pages/about-page/</link>
-      <pubDate>Tue, 21 Jul 2020 19:12:00 +0300</pubDate>
+      <pubDate>Fri, 19 Aug 2022 21:07:00 +0300</pubDate>
       
       <guid>https://www.dimitarpetrov.com/pages/about-page/</guid>
-      <description>This is about page</description>
+      <description>This is about page under construction.</description>
+    </item>
+    
+    <item>
+      <title>How Data Science Answers Different Questions</title>
+      <link>https://www.dimitarpetrov.com/blog/2022/08/19/how-data-science-answers-different-questions/</link>
+      <pubDate>Fri, 19 Aug 2022 21:07:00 +0300</pubDate>
+      
+      <guid>https://www.dimitarpetrov.com/blog/2022/08/19/how-data-science-answers-different-questions/</guid>
+      <description>The blog post starts here.
+import pandas as pd import numpy as np data = pd.DataFrame( data=np.random.normal(loc=0.0, scale=1.0, size=1000), columns=[&amp;#34;gaussian_var&amp;#34;]) data[:10] gaussian_var 0 0.366702 1 0.0247435 2 1.72854 3 0.343894 4 -0.914733 5 -0.186893 6 -0.53095 7 -0.660085 8 -0.740802 9 1.55077 import altair as alt alt.renderers.enable( &amp;#39;altair_saver&amp;#39;, fmts=[&amp;#39;svg&amp;#39;], embed_options={&amp;#39;scaleFactor&amp;#39;: &amp;#39;1.5&amp;#39;, &amp;#39;theme&amp;#39;: &amp;#39;light&amp;#39;}, # method=&amp;#34;selenium&amp;#34;, # webdriver=&amp;#34;chrome&amp;#34;, ) alt.Chart(data).mark_bar().encode( x=alt.X(&amp;#34;gaussian_var&amp;#34;, bin=alt.BinParams(maxbins=100)), y=&amp;#34;count()&amp;#34;).properties(width=800) </description>
     </item>
     
     <item>
@@ -27,7 +33,7 @@
       
       <guid>https://www.dimitarpetrov.com/blog/2020/07/21/setting-up-the-all-servers-needed-for-pxe/</guid>
       <description>We are going to use dnsmasq package to supply DHCP and TFTP functionality to your PXE server.
- Install and configure dnsmasq  sudo pacman --quiet --noconfirm -S dnsmasq sudo cp -rp /etc/dnsmasq.conf /etc/dnsmasq.conf_$(date &amp;#34;+%Y%m%d&amp;#34;) sudo sh -c &amp;#34;cat &amp;gt; /etc/dnsmasq.conf &amp;lt;&amp;lt;EOF port=0 interface=eth0 bind-interfaces dhcp-range=192.168.10.50,192.168.10.60,12h dhcp-boot=/arch/boot/syslinux/lpxelinux.0 dhcp-option-force=209,boot/syslinux/archiso.cfg dhcp-option-force=210,/arch/ dhcp-option-force=66,192.168.10.102 enable-tftp tftp-root=/srv/pxe EOF&amp;#34; resolving dependencies... looking for conflicting packages... Packages (3) libnetfilter_conntrack-1.0.6-1 libnfnetlink-1.0.1-2 dnsmasq-2.76-4 Total Installed Size: 0.91 MiB :: Proceed with installation?</description>
+Install and configure dnsmasq sudo pacman --quiet --noconfirm -S dnsmasq sudo cp -rp /etc/dnsmasq.conf /etc/dnsmasq.conf_$(date &amp;#34;+%Y%m%d&amp;#34;) sudo sh -c &amp;#34;cat &amp;gt; /etc/dnsmasq.conf &amp;lt;&amp;lt;EOF port=0 interface=eth0 bind-interfaces dhcp-range=192.168.10.50,192.168.10.60,12h dhcp-boot=/arch/boot/syslinux/lpxelinux.0 dhcp-option-force=209,boot/syslinux/archiso.cfg dhcp-option-force=210,/arch/ dhcp-option-force=66,192.168.10.102 enable-tftp tftp-root=/srv/pxe EOF&amp;#34; resolving dependencies... looking for conflicting packages... Packages (3) libnetfilter_conntrack-1.0.6-1 libnfnetlink-1.0.1-2 dnsmasq-2.76-4 Total Installed Size: 0.91 MiB :: Proceed with installation?</description>
     </item>
     
     <item>

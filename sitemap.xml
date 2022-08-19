@@ -1,59 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://www.dimitarpetrov.com/pages/about-page/</loc>
-    <lastmod>2020-07-21T19:12:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-08-19T21:07:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.dimitarpetrov.com/blog/</loc>
+    <lastmod>2022-08-19T21:07:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.dimitarpetrov.com/tags/data-science/</loc>
+    <lastmod>2022-08-19T21:07:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.dimitarpetrov.com/</loc>
+    <lastmod>2022-08-19T21:07:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.dimitarpetrov.com/blog/2022/08/19/how-data-science-answers-different-questions/</loc>
+    <lastmod>2022-08-19T21:07:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.dimitarpetrov.com/pages/</loc>
+    <lastmod>2022-08-19T21:07:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.dimitarpetrov.com/tags/python/</loc>
+    <lastmod>2022-08-19T21:07:00+03:00</lastmod>
+  </url><url>
+    <loc>https://www.dimitarpetrov.com/tags/</loc>
+    <lastmod>2022-08-19T21:07:00+03:00</lastmod>
+  </url><url>
     <loc>https://www.dimitarpetrov.com/tags/arch/</loc>
     <lastmod>2020-07-22T21:12:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dimitarpetrov.com/blog/</loc>
-    <lastmod>2020-07-22T21:12:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dimitarpetrov.com/</loc>
-    <lastmod>2020-07-22T21:12:00+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.dimitarpetrov.com/tags/linux/</loc>
     <lastmod>2020-07-22T21:12:00+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.dimitarpetrov.com/tags/pxe/</loc>
     <lastmod>2020-07-22T21:12:00+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.dimitarpetrov.com/blog/2020/07/21/setting-up-the-all-servers-needed-for-pxe/</loc>
     <lastmod>2020-07-22T21:12:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dimitarpetrov.com/tags/</loc>
-    <lastmod>2020-07-22T21:12:00+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.dimitarpetrov.com/blog/2020/07/21/part-0-preparing-the-pxe-server-on-arch-linux/</loc>
     <lastmod>2020-07-21T19:56:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dimitarpetrov.com/pages/</loc>
-    <lastmod>2020-07-21T19:12:00+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.dimitarpetrov.com/categories/</loc>
   </url>
-  
 </urlset>
